@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/drafts/
+
+Sitemap: https://votredomaine.fr/sitemap.xml

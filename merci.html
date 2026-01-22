@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="canonical" href="https://tondomaine.fr/merci.html">
+
+  <title>Merci ! — Cuisine vietnamienne du quotidien</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@400&family=Dosis:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  
+  <style>
+    .merci-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 0;
+      background: var(--pink);
+    }
+
+    .merci-card {
+      background: var(--white);
+      padding: 60px 40px;
+      border-radius: 30px;
+      text-align: center;
+      max-width: 600px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .checkmark {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 30px;
+      background: var(--yellow);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+
+    .merci-card h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: var(--violet);
+    }
+
+    .merci-card p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 30px;
+      color: var(--gray);
+    }
+
+    .signature {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      font-style: italic;
+      color: var(--violet);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="merci-section">
+    <div class="merci-card">
+      <div class="checkmark">✓</div>
+      
+      <h1>Merci !</h1>
+      
+      <p>
+        Ton ebook est en route vers ta boîte mail.<br>
+        (Pense à vérifier tes spams si tu ne le reçois pas dans les 5 minutes.)
+      </p>
+      
+      <p>
+        J'espère que ces recettes te donneront envie de passer du temps en cuisine
+        et de partager ces plats avec les personnes que tu aimes.
+      </p>
+      
+      <div class="signature">
+        Bon appétit !
+      </div>
+      
+      <a class="btn btn--black" href="index.html" style="margin-top: 40px;">
+        Retour à l'accueil
+      </a>
+    </div>
+  </section>
+</body>
+</html>
